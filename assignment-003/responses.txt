@@ -1,0 +1,6 @@
+What is the relationship between an IP address and the DNS?
+*  DNS translates domain names into IP addresses so browsers can load the internet resources
+What is a cookie?
+*  Small files that contain unique identifiers that web servers send to browsers
+What are the three essential parts of a URL?
+*  The protocol, domain name, and path
