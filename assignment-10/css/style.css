@@ -1,0 +1,63 @@
+/*colors
+#e67e00 (orange)
+#1e2b69 (dark blue)
+#ebdd4b (yellow)
+#28286B (dark blue)
+*/
+body {
+  background-color: #28286B;
+  font-family: Futara;
+  text-align: center;
+}
+
+div {
+  border: 4px solid #e67e00;
+  display: inline-block;
+}
+
+img {
+  border-radius: 5%
+}
+
+p, h1, h3 {
+  color: #ebdd4b
+}
+
+.poster {
+  height: 1000px;
+  width: 700px;
+  display: inline-block;
+}
+
+#title {
+  font-size: 30px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.palette {
+  background-color: black;
+  width: 650px;
+  border-spacing: inherit;
+}
+
+.dot {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.one {
+  background-color: #e67e00;
+}
+
+.dot.two {
+  background-color: #ebdd4b;
+}
+
+.dot.three {
+  background-color: #28286B;
+}
