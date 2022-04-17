@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'AbrilFatface';
+  src: url('../fonts/AbrilFatface-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplaySC';
+  src: url('../fonts/PlayfairDisplaySC-Black.ttf') format('truetype');
+}
