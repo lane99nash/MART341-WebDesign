@@ -1,0 +1,165 @@
+body{
+  background-color: #0a1924;
+}
+
+img{
+  display: block;
+  float: left;
+}
+
+p{
+  color: white;
+  float: right;
+  font-family: Raleway;
+  font-size: 22px;
+  line-height: 32px;
+  max-width: 640px;
+  text-align: left;
+}
+
+h1{
+  color: #25bac4;
+  font-family: PlayfairDisplaySC-Black;
+  font-size: 200px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+h2{
+  color: #94b319;
+  float: left;
+  font-family: Raleway;
+  font-size: 40px;
+  text-align: left;
+  padding-right: 25px;
+}
+
+a{
+  font-family: Raleway;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.about-paragraph{
+  text-align: left;
+  float: center;
+}
+
+.about-paragraph::first-letter{
+  font-size: 36px;
+}
+
+.title-border{
+  height: 50px;
+}
+
+.header{
+  float: center bottom;
+}
+
+.header:hover{
+  letter-spacing: 0.1em;
+  font-style: italic;
+  color: #4df7b0;
+}
+
+.article-link{
+  text-decoration: none;
+  color: #25bac4;
+}
+
+.article-link:hover{
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.article-link:visited{
+  color: #4df7b0;
+}
+
+.content::first-letter{
+  font-size: 36px;
+}
+
+/*menu*/
+
+header{
+  position: fixed;
+  float: center;
+  background-color: #94b319;
+  width: 99%;
+  height: 2em;
+  top: 0px;
+  font-family: Raleway;
+  text-align: center right;
+}
+
+.site-name{
+  font-family: Raleway;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 5px;
+  float: left;
+}
+
+/*menu items*/
+
+.menu-item{
+  display: inline-block;
+  margin: 1em .2em;
+  padding: .5em;
+  border-radius: 2em;
+  text-align: center;
+}
+
+.menu-item:hover{
+  background-color: #486799;
+  border-radius: 2em;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+/*dropdown*/
+.dropdown{
+  display: inline-block;
+  position: absolute;
+  margin: 1em 0 0 1em;
+  z-index: 1;
+  border-radius: 2em;
+
+}
+
+.dropdown-content{
+  display: none;
+
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+  border-radius: 1em;
+
+}
+
+.dropdown-item{
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: .5em 0 0 2em;
+  border-radius: 2em;
+}
+
+.dropdown-item:hover{
+  font-style: oblique;
+  border-radius: 2em;
+  background-color: #25bac4;
+}
+
+/*photos*/
+.photos{
+  image-orientation: center;
+  image-orientation: fill;
+}
