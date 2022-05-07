@@ -1,0 +1,134 @@
+body{
+  background-color: #cca48d;
+}
+
+p{
+  color: white;
+  font-family: Raleway;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: left;
+}
+
+
+h1{
+  color: #1c1005;
+  font-family: PlayfairDisplaySC;
+  font-style: oblique;
+  font-size: 150px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+h2{
+  color: #1c1005;
+  float: center;
+  font-family: PlayfairDisplaySC;
+  font-style: italic;
+  font-size: 50px;
+  text-align: left;
+  padding-right: 35px;
+}
+
+a{
+  font-family: Raleway;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: right;
+}
+
+img{
+  display: inline-block;
+  float: left;
+  padding: 15px;
+}
+
+
+/*menu*/
+
+header{
+  position: fixed;
+  float: center;
+  background-color:#ba6636;
+  width: 99%;
+  height: 4em;
+  top: 0px;
+  font-family: Raleway;
+  text-align: center right;
+}
+
+.site-name{
+  font-family: Raleway;
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 5px;
+  float: left;
+}
+
+/*menu items*/
+
+.menu-item{
+  display: inline-block;
+  margin: 1em .2em;
+  padding: .5em;
+  border-radius: 2em;
+  text-align: left;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item:hover{
+  font-style: oblique;
+  border-radius: 2em;
+  background-color: #b0470b;
+}
+
+/*local page*/
+
+.archie-bray{
+  text-align: left;
+  max-width: 650px;
+  padding-left: 10px;
+}
+
+.arches{
+  float: right;
+  padding-left: 5px;
+}
+
+.clay-guild{
+  padding-right: 10px;
+}
+
+.website-link{
+  text-decoration: none;
+  color: #1c1005;
+}
+
+.website-link:hover{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/*technique pg*/
+
+.throwing{
+  padding-left: 600px;
+}
+
+.handbuilding{
+  padding-left: 600px;
+}
+
+.hand-building{
+  float: right;
+  max-width: 900px;
+}
+
+.throwing-p{
+  float: right;
+  max-width: 900px;
+}
