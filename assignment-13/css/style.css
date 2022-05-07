@@ -101,13 +101,26 @@ header{
 
 .clay-guild{
   padding-right: 10px;
+}
 
+.website-link{
+  text-decoration: none;
+  color: #1c1005;
+}
+
+.website-link:hover{
+  font-style: italic;
+  text-decoration: underline;
 }
 
 /*technique pg*/
 
 .throwing{
-  float: center;
+  padding-left: 600px;
+}
+
+.handbuilding{
+  padding-left: 600px;
 }
 
 .hand-building{
