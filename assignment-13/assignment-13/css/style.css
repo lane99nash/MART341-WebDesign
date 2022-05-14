@@ -115,12 +115,70 @@ header{
 
 /*technique pg*/
 
+*{
+  box-sizing: border-box;
+}
+
+[class*="col-"]{
+  float:left;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*desktop*/
+@media only screen and (min-width: 768px){
+  .col-1 {width: 100%}
+  .col-2 {width: 100%}
+
+  div > img {
+    max-width: 100%;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width: 768px){
+  [class*="col-"]{
+    width: 100%;
+  }
+  .col-1 {width: 100%}
+  .col-2 {width: 100%}
+
+
+  div > img {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 70px;
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+
+
 .throwing{
   padding-left: 600px;
+  text-align: left;
 }
 
 .handbuilding{
   padding-left: 600px;
+  text-align: left;
 }
 
 .hand-building{
